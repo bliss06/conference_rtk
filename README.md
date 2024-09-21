@@ -1,8 +1,1 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I thought there wont be much instruction for conference planner task, so I started on my own to create a project from scratch. I finished landing page and added navigation after many trial & error approach. Got it right in a way, then noticed that there are further lab instructions to complete the project. That project is "Conference event planner" and I will clone and start with that. Applying from scratch, concepts that are not explained is taking lot of time.
