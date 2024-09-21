@@ -1,120 +1,38 @@
-/* LandingPage.css */
-/* Layout styles */
-.landing-page {
+html {
+  background: url("./assets/conf.jpg") no-repeat center center fixed;
+  background-size: cover;
+  /* background-blend-mode: overlay; */
+}
+
+.container {
   display: flex;
-  padding: 20px;
+  width: 100%;
+  height: 100vh; /* Ensure the container takes the full height of the viewport */
+  background-color: rgba(33, 32, 32, 0.5);
 }
 
-.left-section,
-.right-section {
-  padding: 20px;
+.half {
+  flex: 1; /* Each child will take up 50% of the container space */
+  /* height: 100%; */
 }
 
-.left-section {
-  flex: 1;
-  background-color: #eaeaea;
-  margin-right: 10px;
-}
+.left {
+  /* Optional styling for the left half */
+  align-content: center;
+  vertical-align: middle;
+  color: rgb(253, 255, 210);
 
-.right-section {
-  flex: 2;
-  background-color: #dcdcdc;
-}
-/* Reset some default browser styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Body styles */
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background-color: #f4f4f4;
-  color: #333;
-  padding: 20px;
-}
-
-/* Header styles */
-header {
-  background: #333;
-  color: #fff;
-  padding: 10px 0;
   text-align: center;
 }
 
-/* Navigation styles */
-nav {
-  margin: 20px 0;
+.right {
+  /* Optional styling for the right half */
+  color: rgb(255, 255, 255);
+  font-size: large;
+  align-content: center;
+  vertical-align: middle;
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin-right: 10px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #333;
-}
-
-/* Main content styles */
-main {
-  background: #fff;
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
-/* Footer styles */
-footer {
-  background: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-/* Button styles */
-button {
-  background: #333;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-button:hover {
-  background: #555;
-}
-
-/* Form styles */
-form {
-  margin: 20px 0;
-}
-
-form input,
-form textarea {
-  width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-  border: 1px solid #ccc;
-}
-
-form input[type="submit"] {
-  background: #333;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-}
-
-form input[type="submit"]:hover {
-  background: #555;
+.started {
+  background-color: rgb(239, 202, 122);
 }
